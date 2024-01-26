@@ -29698,7 +29698,7 @@ MonoBehaviour:
   weapon2Img: {fileID: 1484568683}
   enemyATxt: {fileID: 408003244}
   enemyCTxt: {fileID: 1602882423}
-  curScoreText: {fileID: 1392784354}
+  curScoreText: {fileID: 1888965142}
   enemyZone:
   - {fileID: 423156530}
   - {fileID: 587288660}

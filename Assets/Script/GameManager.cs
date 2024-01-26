@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
     {
         for (int index = 0; index < stage; index++)
         {
-            int ran = Random.Range(0, 1);
+            int ran = Random.Range(0, 2);
             enemyList.Add(ran);
 
             switch (ran)
