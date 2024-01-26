@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
     {
         for (int index = 0; index < stage; index++)
         {
-            int ran = Random.Range(0, 3);
+            int ran = Random.Range(0, 1);
             enemyList.Add(ran);
 
             switch (ran)
@@ -112,7 +112,7 @@ public class GameManager : MonoBehaviour
 
         while (enemyList.Count > 0)
         {
-            int ranZone = Random.Range(0, 1);
+            int ranZone = Random.Range(0, 4);
             GameObject instantEnemy = Instantiate(enemies[enemyList[0]], enemyZone[ranZone].position, enemyZone[ranZone].rotation);
             Enemy enemy = instantEnemy.GetComponent<Enemy>();
             enemy.Target = player.transform;
